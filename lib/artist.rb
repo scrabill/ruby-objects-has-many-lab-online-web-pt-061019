@@ -7,7 +7,7 @@ class Artist
 
   def initialize(name)
     @name = name
-    @songs = []
+    @songs = [] # All songs that belong to a particular artist
   end
 
   # def artist(artist)
