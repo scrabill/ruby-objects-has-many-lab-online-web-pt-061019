@@ -1,5 +1,5 @@
 class Author
-  attr_accessor :name #Don't use this for everything if you want to protect data
+  attr_accessor :name # Don't use this for everything if you want to protect data
 
 
   def initialize(name)
