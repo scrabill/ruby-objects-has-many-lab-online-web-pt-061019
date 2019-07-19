@@ -7,8 +7,8 @@ class Post
   def initialize(title)
     @title = title
     @@all << self
-    self.author = author
-
+    # self.author = author
+    @author = author
   end
 
   def author_name
