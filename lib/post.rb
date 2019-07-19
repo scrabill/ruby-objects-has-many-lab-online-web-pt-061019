@@ -15,7 +15,7 @@ class Post
     if self.author.name != nil
       self.author.name
     end
-    nil
+    self.author.name
   end
 
   def self.all
