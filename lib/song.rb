@@ -9,7 +9,7 @@ class Song
   end
 
   def self.all
-    @@all
+    @@all # Reference the all songs class array
   end
 
   def artist_name
