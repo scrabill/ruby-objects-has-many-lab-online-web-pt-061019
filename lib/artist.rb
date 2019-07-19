@@ -27,6 +27,7 @@ class Artist
     # @artist = artist
     song.artist = self
     # @artist = self.artist
+    @@songs << song
     song
   end
 
