@@ -12,7 +12,7 @@ class Post
   end
 
   def author_name
-    if self.author != nil
+    if self.author != nil # self.author.name is too specific. If there is no author object, assigned to the post, then there for sure is no self.author.name
       self.author.name
     else
       nil
