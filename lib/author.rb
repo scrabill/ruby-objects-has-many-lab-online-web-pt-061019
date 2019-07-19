@@ -12,6 +12,7 @@ class Author
   end
 
   def add_post(title)
+    @posts << title
 
 
     # @songs << song
