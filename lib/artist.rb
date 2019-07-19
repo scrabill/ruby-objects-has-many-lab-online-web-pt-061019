@@ -16,7 +16,7 @@ class Artist
   end
 
   def add_song(song)
-    @songs << song
+    @songs << song # Add this new song, to the array of song by this artist
     song.artist = self
     @@songs << song
     song
