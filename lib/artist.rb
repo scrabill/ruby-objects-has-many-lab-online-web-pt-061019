@@ -11,7 +11,7 @@ class Artist
   end
 
   def add_song_by_name(name)
-    song = Song.new(name)
+    song = Song.new(name) # Remember that the Song intialize method requires a name as an argument. The initialization will fail otherwise
     add_song(song)
   end
 
