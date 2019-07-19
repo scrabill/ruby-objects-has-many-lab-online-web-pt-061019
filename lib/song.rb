@@ -15,13 +15,12 @@ class Song
     @@all
   end
 
-  # def add_song(song)
-  #   @songs << song
-  # end
-  #
-  # def songs
-  #   @songs
-  # end
-
+  def artist_name
+    if self.artist != nil # self.author.name is too specific. If there is no author object, assigned to the post, then there for sure is no self.author.name
+      self.author.name
+    else
+      nil
+    end
+  end
 
 end
