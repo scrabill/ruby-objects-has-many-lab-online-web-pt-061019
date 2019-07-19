@@ -20,11 +20,11 @@ class Author
 
 
 
-    @songs << song
-    # @artist = artist
-    song.artist = self
-    # @artist = self.artist
-    @@songs << song
-    song
+    # @songs << song
+    # # @artist = artist
+    # song.artist = self
+    # # @artist = self.artist
+    # @@songs << song
+    # song
   end
 end
