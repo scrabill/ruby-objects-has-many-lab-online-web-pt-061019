@@ -1,6 +1,7 @@
 class Author
   attr_accessor :name, :post # Don't use this for everything if you want to protect data
 
+  @@posts = []
 
   def initialize(name) # One time setter method, stuff I do not want to change
     @name = name
@@ -17,11 +18,12 @@ class Author
 
 
 
-    # @songs << song
-    # # @artist = artist
-    # song.artist = self
-    # # @artist = self.artist
-    # @@songs << song
-    # song
+
+    @songs << song
+    # @artist = artist
+    song.artist = self
+    # @artist = self.artist
+    @@songs << song
+    song
   end
 end
