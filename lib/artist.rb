@@ -17,7 +17,7 @@ class Artist
 
   def add_song(song)
     @songs << song # Add this new song, to the array of song by this artist
-    song.artist = self
+    song.artist = self # For the song that was just added, assign this artist as a property
     @@songs << song
     song
   end
