@@ -17,14 +17,5 @@ class Author
     post.author = self
     @@posts << post
     post
-
-
-
-    # @songs << song
-    # # @artist = artist
-    # song.artist = self
-    # # @artist = self.artist
-    # @@songs << song
-    # song
   end
 end
