@@ -11,6 +11,6 @@ class Author
     @posts
   end
 
-  def add_pos(title)
+  def add_post(title)
   end
 end
